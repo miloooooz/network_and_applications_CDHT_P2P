@@ -28,3 +28,6 @@
 >                     And if the package is lost, `rtx` will be `True` and the package will be resent. Same as `receive_file()`, this function also writes a responding log to record all the logs including `DROP` and `RTX`.
 > + `self_depart()`: This function is called when the input is `Quit`, the current node will set up the connection between itself and its two successors and inform them its leaving.
 > + `kill_suc()`: This function is called when current node notices the sudden kill of its successor or second successor, and after update, it should inform its new successor and to update its new second successor.
+
+### Other information:
+> In this project my sample file is ***2012.pdf***, the main program that implements the functions is ***CDHT.py***, more detailed specification is ***Assignment.pdf*** and there is a simple report ***CDHT Assignment Report.pdf***
